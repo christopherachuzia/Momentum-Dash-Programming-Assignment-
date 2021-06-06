@@ -47,9 +47,4 @@ function getSurrounding(forest,currentrow,currentcol,answer){
     }
 }
 
-const forest = [[2,0,4,3,1],
-                [0,3,2,0,1],
-                [3,6,1,1,5],
-                [0,1,3,2,4]]
-
-console.log(beaver(forest))
+module.exports = beaver
